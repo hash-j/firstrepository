@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navigation-Bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0,.4rem .3rem rgba(0,0,0,0.4);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.menu {
+    display: flex;
+}
+#navigation-Bar .logo img{
+    width: 4rem;
+    height: 4rem;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: yellow;
+    font-size: 1.2rem;
+}
+#navigation-Bar .menu a:hover{
+    color: greenyellow;
+}
+#navigation-Bar .srhBtn input{
+    padding: .5rem 3rem;
+    border-radius: 1rem;
+}
+#navigation-Bar .srhBtn button{
+    padding: .5rem 3rem;
+    border-radius: 1rem;
+}
+.herosection {
+    background: url(../Images/26.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.herosection h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+}
+.herosection h1 span{
+    color: chocolate;
+    text-shadow: .3rem .3rem .4rem rgba(0,0,0,0.4);
+}
+.aboutUs{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+.aboutUs .para h1{
+    font-size: 3rem;
+    color: maroon;
+    padding: 5px;
+}
+.aboutUs .para p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 1rem;
+}
+.aboutUs .about-img img{
+    width: 32rem;
+    height: 32rem;
+    border-radius: 5rem;
+    border: .3rem double rgb(109, 1, 1);
+}
+.heading-text h1{
+    font-size: 4rem;
+    color: maroon;
+    padding: 1rem;
+    text-align: center;
+}
+.mainMenu{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin-bottom: 15px;
+}
+.mainMenu .cards{
+    width: 337px;
+    height: 22rem;
+    background-color: crimson;
+    border: .5rem double black;
+}
+.mainMenu .cards img{
+    width: 100%;
+    height: 80%;
+}
+.mainMenu .cards h2{
+    text-align: center;
+    color: yellow;
+    margin: 1rem 0;
+}
+.contactUs{
+    width: 70%;
+    margin: 30px auto;
+    background: url(../Images/28.png);
+    /*background-color: crimson;*/
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.contactUs form{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactUs form input{
+    padding: 8px 50px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px 0;
+}
+footer{
+    background-color: chocolate;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    background-position: center;
+}
+footer .textPara{
+    color: black;
+    font-size: 20px;
+}
+footer .socialIcon i{
+    padding: 0 20px;
+    margin-left: 10px;
+}
