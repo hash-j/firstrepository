@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.herosection{
+    background: url(../Images/Punjab/TitleImage.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;cursor: pointer;
+}
+.herosection h1{
+    color: greenyellow;
+    font-size: 80px;
+    text-align: center;
+    padding: 30px 0;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+    margin-top: 74px;
+}
+.herosection h1 span{
+    color: white;
+    font-family: cursive;
+}
+.herosection a{
+    text-decoration: none;
+}
+.about-punjab {
+    width: 95%;
+    background-color: rgb(0, 252, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    padding: 15px;
+}
+.about-punjab .punjab-map img{
+    width: 500px;
+    height: 480px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+}
+.about-punjab .punjab-para h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+    margin: 20px 0;
+}
+.about-punjab .punjab-para p{
+    text-align: center;
+    line-height: 1.9;
+    letter-spacing: 3px;
+    color: rgb(3, 126, 2);
+    font-size: 16px;
+}
+.punjab-culture {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto;
+    padding: 15px;
+}
+.punjab-culture .para h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(94, 255, 0);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+    margin: 20px 0;
+}
+.punjab-culture .para p{
+    text-align: center;
+    line-height: 1.9;
+    letter-spacing: 3px;
+    color: rgb(3, 126, 2);
+    font-size: 16px;
+}
+.punjab-culture .img-cul img{
+    width: 550px;
+    height: 480px;
+    border-radius: 0 30px 0 30px;
+}
+.punjab-culture .img-cul img:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+}
+.punjab-Cul{
+    width: 95%;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+.punjab-Cul .cards{
+    width: 280px;
+    height: 400px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+    margin: 10px;
+}
+.punjab-Cul .cards:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    border-radius: 35px;
+
+}
+.punjab-Cul .cards img{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0,200,0,0.4);
+}
+.punjab-Cul .cards h2{
+    font-family: cursive;
+    color: gold;
+    text-align: center;
+    margin-top: 15px;
+}
+.punjab-Cul .cards p{
+    text-align: center;
+    line-height: 1.5;
+    color: gray;
+    margin: 5px auto;
+}
+.punjabi-food {
+    width: 80%;
+    background-color: greenyellow;
+    margin: 0 auto;
+}
+.punjabi-food h1{
+    color: white;
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px 0;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+    margin: 30px auto;
+}
+.punjabi-food p{
+    text-align: center;
+    line-height: 1.9;
+    letter-spacing: 3px;
+    color: rgb(3, 126, 2);
+    font-size: 16px;
+}
+.food-slider{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.food-slider img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 3px double green;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .textPara{
+    color: white;
+    font-size: 20px;
+}
+footer .socialIcon i{
+    padding: 0 20px;
+    margin-left: 20px;
+}
